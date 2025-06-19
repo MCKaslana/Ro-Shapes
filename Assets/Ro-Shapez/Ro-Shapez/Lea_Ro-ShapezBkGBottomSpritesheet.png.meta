@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: 8f8ff5a6c31c84241875de2c3a3be8be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8524590402633060694
+    second: Lea_Ro-ShapezBkGBottomSpritesheet_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2156
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d012f120c3f452942ac27dbd2c72aafc
+      internalID: 460924629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2079
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07caa8b9e7b9ba74fb43804e75f4bb60
+      internalID: 394731490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2002
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bba8339a774d3439993a5dd53ddf15
+      internalID: 533621958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1925
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53cb03f8654a0547843dd9f2c5227b5
+      internalID: 1658690192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea97f0211b351254495886c53908f1b7
+      internalID: 1824701808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1771
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467140f593c289c49bdf904a009f2ba7
+      internalID: -970471760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1694
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adabc3dc6cfa0644ebcdbee16c5dce70
+      internalID: 339802612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1617
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f441e8727076c8428358650f8e22661
+      internalID: 12781166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2d64b6bbf5a73458a381204d8262d7
+      internalID: 681594343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1463
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222b48089dca79a4aa38dedad5c8533a
+      internalID: -1924118124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1386
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930f2e3fdb398024e883b00311189b86
+      internalID: 896714479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1309
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbd2a90c32f2c64385ebb598fcdc1b4
+      internalID: 163016720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdf2783d657e294d82ae445f0a63eae
+      internalID: 641058914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1155
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deecdd064c171a046b69c2a1545cb2be
+      internalID: -1899190378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54df4b67dcd250447aafb3b9afb7b67d
+      internalID: -613412923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1001
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b779caaf1435264d863c3c51a3ff286
+      internalID: 867079999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9f23d76804bf347820f5589b749e13
+      internalID: 1577141719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34049d10f6c27d24abc4464c0db1b2d2
+      internalID: 1120031738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500ce53c089ec3243a5219e834c20669
+      internalID: 234492373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1519136da27c0bc4080f75deb3018082
+      internalID: -748906380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02d0020a8c678a4595d3f7a8abbdc25
+      internalID: -1728918543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b8ec4d8547d594db6cf9789ec3bc05
+      internalID: -484137642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7730dda158c01c04789da931a16fc1d2
+      internalID: 1114188519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbd646814119094a879d5e1a4d0c347
+      internalID: 88305111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70a2748cad17b44581c86e56f014634
+      internalID: -619484996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae32eac14e10545af7d7029d30b6cf
+      internalID: 539212255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e51479a510c16648903851288a69ae0
+      internalID: 1603615620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1bcac7e8565934a991d0bbf2c4560f
+      internalID: 225827105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea_Ro-ShapezBkGBottomSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2554448da2b059d4db3f487e35ea2d72
+      internalID: -228008118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 766884e54525c0b4e9f0c547f5f59689
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lea_Ro-ShapezBkGBottomSpritesheet_0: 460924629
+      Lea_Ro-ShapezBkGBottomSpritesheet_1: 394731490
+      Lea_Ro-ShapezBkGBottomSpritesheet_10: 896714479
+      Lea_Ro-ShapezBkGBottomSpritesheet_11: 163016720
+      Lea_Ro-ShapezBkGBottomSpritesheet_12: 641058914
+      Lea_Ro-ShapezBkGBottomSpritesheet_13: -1899190378
+      Lea_Ro-ShapezBkGBottomSpritesheet_14: -613412923
+      Lea_Ro-ShapezBkGBottomSpritesheet_15: 867079999
+      Lea_Ro-ShapezBkGBottomSpritesheet_16: 1577141719
+      Lea_Ro-ShapezBkGBottomSpritesheet_17: 1120031738
+      Lea_Ro-ShapezBkGBottomSpritesheet_18: 234492373
+      Lea_Ro-ShapezBkGBottomSpritesheet_19: -748906380
+      Lea_Ro-ShapezBkGBottomSpritesheet_2: 533621958
+      Lea_Ro-ShapezBkGBottomSpritesheet_20: -1728918543
+      Lea_Ro-ShapezBkGBottomSpritesheet_21: -484137642
+      Lea_Ro-ShapezBkGBottomSpritesheet_22: 1114188519
+      Lea_Ro-ShapezBkGBottomSpritesheet_23: 88305111
+      Lea_Ro-ShapezBkGBottomSpritesheet_24: -619484996
+      Lea_Ro-ShapezBkGBottomSpritesheet_25: 539212255
+      Lea_Ro-ShapezBkGBottomSpritesheet_26: 1603615620
+      Lea_Ro-ShapezBkGBottomSpritesheet_27: 225827105
+      Lea_Ro-ShapezBkGBottomSpritesheet_28: -228008118
+      Lea_Ro-ShapezBkGBottomSpritesheet_3: 1658690192
+      Lea_Ro-ShapezBkGBottomSpritesheet_4: 1824701808
+      Lea_Ro-ShapezBkGBottomSpritesheet_5: -970471760
+      Lea_Ro-ShapezBkGBottomSpritesheet_6: 339802612
+      Lea_Ro-ShapezBkGBottomSpritesheet_7: 12781166
+      Lea_Ro-ShapezBkGBottomSpritesheet_8: 681594343
+      Lea_Ro-ShapezBkGBottomSpritesheet_9: -1924118124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
