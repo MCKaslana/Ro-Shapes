@@ -1,10 +1,11 @@
 using System.Collections.Generic;
+using UnityEditor.Networking.PlayerConnection;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PuzzleManager : MonoBehaviour
 {
-    public static PuzzleManager Instance;
+    //public static PuzzleManager Instance;
 
     [SerializeField] private List<RoShape> _shapes = new();
     [SerializeField] Text timerText;
@@ -17,14 +18,9 @@ public class PuzzleManager : MonoBehaviour
     private void Start()
     {
         _winScreen.SetActive(false);
-
-        if (Instance == null)
+        for(int i=0; i< _shapes.Count; i++)
         {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(Instance);
+            _shapes[i].Init(this, i);
         }
     }
 
@@ -40,6 +36,20 @@ public class PuzzleManager : MonoBehaviour
         {
             CountDownTime();
         }
+    }
+
+    public void ShapeClicked(int shapeIndex)
+    {
+        _shapes[shapeIndex].Rotate();
+        int connectIndex = shapeIndex + 1;
+
+        if (connectIndex > _shapes.Count - 1)
+        {
+            connectIndex = 0;
+        }
+
+        Debug.Log("ConnectIndex: " + connectIndex);
+        _shapes[connectIndex].Rotate();
     }
 
     public void CountDownTime()

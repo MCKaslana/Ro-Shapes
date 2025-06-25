@@ -5,13 +5,14 @@ using UnityEngine.UI;
 
 public class RoShape : MonoBehaviour
 {
-    public int value { get => _edgeNumbers[index];}
+    public int value { get => _edgeNumbers[currentNumberIndex];}
     [SerializeField] private int[] _edgeNumbers;
 
-    [SerializeField] int index = 0;
+    [SerializeField] int currentNumberIndex = 0;
     [SerializeField] int step = 1;
     [SerializeField] int edges = 3;
-    [SerializeField] RoShape connectedShape;
+    int index;
+    PuzzleManager manager;
 
     private void OnEnable()
     {
@@ -20,7 +21,7 @@ public class RoShape : MonoBehaviour
 
     void setup()
     {
-        float startRotateAngle = 360 / edges * index;
+        float startRotateAngle = 360 / edges * currentNumberIndex;
         transform.Rotate(new Vector3(0, 0, -startRotateAngle));
     }
 
@@ -28,25 +29,23 @@ public class RoShape : MonoBehaviour
     {
         float rotateAngle = 360 / edges * step;
         transform.Rotate(new Vector3(0, 0, -rotateAngle));
-        index += step;
-        if (index > edges - 1)
+        currentNumberIndex += step;
+        if (currentNumberIndex > edges - 1)
         {
-            index -= edges;
+            currentNumberIndex -= edges;
         }
-        Debug.Log("The index is " + index.ToString());
-        connectedShape.RotateByOther();
+        Debug.Log("The currentNumberIndex is " + currentNumberIndex.ToString());
+        
     }
 
-    public void RotateByOther()
+    public void Clicked()
     {
-        float rotateAngle = 360 / edges * step;
-        Debug.Log("Rotate angle is: " + rotateAngle.ToString());
-        transform.Rotate(new Vector3(0, 0, -rotateAngle));
-        index += step;
-        if (index > edges - 1)
-        {
-            index -= edges;
-        }
-        Debug.Log("The index is " + index.ToString());
+        manager.ShapeClicked(index);
+    }
+
+    public void Init(PuzzleManager manager, int index)
+    { 
+        this.index = index; 
+        this.manager = manager;
     }
 }
