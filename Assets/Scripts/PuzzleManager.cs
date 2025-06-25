@@ -7,49 +7,61 @@ public class PuzzleManager : MonoBehaviour
 {
     //public static PuzzleManager Instance;
 
-    [SerializeField] private List<RoShape> _shapes = new();
+    //[SerializeField] private List<RoShape> _shapes = new();
     [SerializeField] Text timerText;
     [SerializeField] Text _scoreBoardText;
     [SerializeField] private GameObject _winScreen;
-
+    private LevelSettings _levelSettings;
     private float _highScore;
     private float _timePassed = 0f;
 
     private void Start()
     {
+        _levelSettings = GameObject.Find("Canvas").GetComponent<LevelSettings>();
         _winScreen.SetActive(false);
-        for(int i=0; i< _shapes.Count; i++)
+        for(int i=0; i< _levelSettings.roShapes.Count; i++)
         {
-            _shapes[i].Init(this, i);
+            _levelSettings.roShapes[i].Init(this, i);
         }
     }
 
     private void Update()
     {
-        if (CheckIsEqual())
-        {
-            _winScreen.SetActive(true);
-            _highScore = _timePassed;
-            UpdateHighScore();
-        }
-        else
-        {
-            CountDownTime();
-        }
+        CountDownTime();
+    }
+
+    private void LoadLevel()
+    {
+        Time.timeScale = 1;
+        _timePassed = 0;
     }
 
     public void ShapeClicked(int shapeIndex)
     {
-        _shapes[shapeIndex].Rotate();
+        
+
+        _levelSettings.roShapes[shapeIndex].Rotate();
         int connectIndex = shapeIndex + 1;
 
-        if (connectIndex > _shapes.Count - 1)
+        if (connectIndex > _levelSettings.roShapes.Count - 1)
         {
             connectIndex = 0;
         }
 
         Debug.Log("ConnectIndex: " + connectIndex);
-        _shapes[connectIndex].Rotate();
+        _levelSettings.roShapes[connectIndex].Rotate();
+
+        if (CheckIsEqual())
+        {
+            _winScreen.SetActive(true);
+            _highScore = _timePassed;
+            UpdateHighScore();
+            Time.timeScale = 0;
+            foreach (var shape in _levelSettings.roShapes)
+            {
+                shape.GetComponent<Button>().enabled = false;
+            }
+        }
     }
 
     public void CountDownTime()
@@ -60,13 +72,19 @@ public class PuzzleManager : MonoBehaviour
 
     public bool CheckIsEqual()
     {
-        Debug.Log($"check {_shapes[0].value} + {_shapes[1].value} and {_shapes[2].value}");
-        if (_shapes[0].value + _shapes[1].value == _shapes[2].value)
+        for (int i=2; i<_levelSettings.equation.Count; i=i+3)
         {
-            return true;
+            int a = _levelSettings.roShapes[_levelSettings.equation[i - 2]].value;
+            int b = _levelSettings.roShapes[_levelSettings.equation[i - 1]].value;
+            int c = _levelSettings.roShapes[_levelSettings.equation[i]].value;
+            Debug.Log($"{a} + {b} = {c}?");
+            
+            if (a + b != c)
+            {
+                return false;
+            }
         }
-
-        return false;
+        return true;
     }
 
     public void ResetGame()
@@ -79,5 +97,10 @@ public class PuzzleManager : MonoBehaviour
         _scoreBoardText.text =
             "Best Time:" + "\n" +
             _highScore.ToString("F2") + " Seconds!";
+    }
+
+    public void AddEquation()
+    {
+
     }
 }
