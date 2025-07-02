@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class ButtonPressEvents : MonoBehaviour
 {
     public static ButtonPressEvents instance;
+    [SerializeField] private int _nextLevelIndex;
 
     private void Start()
     {
@@ -17,10 +18,9 @@ public class ButtonPressEvents : MonoBehaviour
         }
     }
 
-    int levelIndex = 0;
     public void GoToGame()
     {
-        levelIndex++;
-        SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadScene(_nextLevelIndex);
+        Time.timeScale = 1f;
     }
 }
